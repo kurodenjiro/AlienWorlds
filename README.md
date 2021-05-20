@@ -1,7 +1,7 @@
 # AlienWorlds Auto Claim TLM - Community version
 
 The premium version is developing. Its functionality will be announced soon. It's safer, more stable, more accurate,
-faster, lighter for multiple accounts. The auto script will be located **in this [private repository](https://github.com/autoalmosteverything/AlienWorldPremium) only available to those
+faster, lighter for multiple accounts. The auto script will be located **in this [private repository](https://github.com/autoalmosteverything/AlienWorldsPremium) only available to those
 who have received my invitation (from now, I will call "Right of Access", RoA).** In particular, when buying RoA, you
 can download it anytime, use it for any account on any computer, without limitation (except sharing). I will support the
 first-time setup and always update and fix bugs in the future.
