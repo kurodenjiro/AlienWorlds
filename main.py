@@ -168,7 +168,7 @@ def ClaimTLM():
                     log.screen('[*] Preventing fail to fetch error... Feel free and wait for notification!', True)
                     notification.notify(app,
                                         'Preventing fail to fetch error... Feel free and wait for notification!')
-                    for i in range(10):
+                    for i in range(5):
                         time.sleep(1)
                         CanvasDraw(browser, 210, -125)
                         time.sleep(1)
@@ -180,7 +180,7 @@ def ClaimTLM():
                 else:
                     time.sleep(20)
                     CanvasDraw(browser, 0, 93)  # Click to Login button
-                    time.sleep(40)
+                    time.sleep(20)
                 log.screen_n_file('[+] Logged-in to AlienWorlds.')
                 notification.notify(app, 'Logged-in to AlienWorlds.')
             except Exception as ex:
