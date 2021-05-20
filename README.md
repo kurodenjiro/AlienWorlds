@@ -68,7 +68,7 @@ v1.3 [View on Youtube](https://www.youtube.com/watch?v=kiVkAjCedSU)
 
 - Handle `transaction is expired` error: try to claim again.
 
-v1.4 [View on Youtube]()
+v1.4 [View on Youtube](https://www.youtube.com/watch?v=nFb3mL9LP9Q)
 
 - Switch to one time login instead of the loop of turn off/turn on browser.
 - Handle `fail to fetch` error: try to login again.
@@ -159,7 +159,7 @@ v1.3 [Xem trên Youtube](https://www.youtube.com/watch?v=kiVkAjCedSU)
 
 - Xử lý lỗi `transaction is expired`: cố gắng nhận lại.
 
-v1.4 [View on Youtube]()
+v1.4 [View on Youtube](https://www.youtube.com/watch?v=nFb3mL9LP9Q)
 
 - Chuyển sang đăng nhập 1 lần thay vì vòng lặp mở/tắt trình duyệt.
 - Thêm dịch vụ giải captcha thứ hai: CapMonster.

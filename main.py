@@ -5,7 +5,7 @@
 # Solve captcha by using 2Captcha, register here https://2captcha.com?from=11528745.
 
 from datetime import datetime
-import time, re
+import os, time, re
 import urllib.parse as urlparse
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
@@ -63,7 +63,7 @@ waxio_cookies = [
     {
         'name': 'session_token',
         # Replace by your session token -->
-        'value': 'YourSessionID',
+        'value': 'YourSessionToken',
         # <-- Replace by your session token
         'domain': '.wax.io',
         'path': '/',
@@ -189,7 +189,6 @@ def ClaimTLM():
             if isLoggedIn:
                 while True:
                     delay_time = 600  # Delay time between two claims.
-                    sign_time = 0  # Time for sign.
                     verify_time = 90  # Max time for verify the sign. Default is 1.5 minutes.
                     try:
                         log.screen_n_file('', False)
@@ -263,9 +262,8 @@ def ClaimTLM():
                                                 break
                                         except:
                                             pass
+
                                 isTransactionExpired = False
-                                now = datetime.now()
-                                start_sign_time = now.timestamp()
 
                                 time.sleep(5)
                                 if len(browser.window_handles) > 1:
@@ -323,9 +321,11 @@ def ClaimTLM():
                                                 time.sleep(1)
                                                 browser.find_element_by_xpath(
                                                     "//button[contains(@class, 'button button-secondary button-large text-1-5rem text-bold mx-1')]").click()
-                                                time.sleep(5)
+                                                time.sleep(10)
                                                 browser.switch_to.window(gameTab)
-                                                CanvasDraw(browser, 210, -115)  # Click to Close button
+                                                for i in range(-5, 5):
+                                                    for j in range(-5, 5):
+                                                        CanvasDraw(browser, 210 + i, -115 + j)  # Click to Close button
                                                 time.sleep(2)
                                                 CanvasDraw(browser, 0, 50)  # Click to Claim button if 1 button
                                                 CanvasDraw(browser, -70,
@@ -381,14 +381,9 @@ def ClaimTLM():
                                     break
                                 if isTransactionExpired:
                                     continue
-                                now = datetime.now()
-                                sign_time = now.timestamp() - start_sign_time
-                                log.screen_n_file(
-                                    '  [+] Claimed. Wait for %f minutes.' % (
-                                        round((delay_time - sign_time) / 60, 2)))
-                                notification.notify(app,
-                                                    'Claimed. Wait for %f minutes.' % (
-                                                        round((delay_time - sign_time) / 60, 2)))
+
+                                log.screen_n_file('  [+] Claimed. Wait for %f minutes.' % (round(delay_time / 60, 2)))
+                                notification.notify(app, 'Claimed. Wait for %f minutes.' % (round(delay_time / 60, 2)))
                                 time.sleep(verify_time)
                                 CanvasDraw(browser, -230, -225)  # Click to Home button.
                                 time.sleep(2)
@@ -415,7 +410,7 @@ def ClaimTLM():
                                         ram, (round(delay_time / 60, 2))))
                                 notification.notify(app, 'Out of RAM (%d%%). Wait for %f minutes.' % (
                                     ram, (round(delay_time / 60, 2))))
-                            delay_time += sign_time + verify_time
+                            delay_time += verify_time
                         if isCaptchaExpired:
                             delay_time = 300
                             log.screen_n_file(
@@ -424,8 +419,8 @@ def ClaimTLM():
                             notification.notify(app,
                                                 'Captcha is expired at multi-time. Anti-captcha service is not stable now. Wait for %f minute then restart.' % (
                                                     round(delay_time / 60, 2)))
-                            delay_time += sign_time + verify_time
-                        time.sleep(delay_time - sign_time - verify_time)
+                            delay_time += verify_time
+                        time.sleep(delay_time - verify_time)
                         if isCaptchaExpired:
                             break
                     except Exception as ex:
@@ -439,5 +434,6 @@ def ClaimTLM():
 if update.check():
     log.screen_n_file('[*] New version is released. Please download it! Thank you.')
     notification.notify(app, 'New version is released. Please download it! Thank you.')
+    os.system('start https://www.youtube.com/c/AutoAlmostEverything')
 else:
     ClaimTLM()
