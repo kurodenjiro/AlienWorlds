@@ -40,9 +40,11 @@ TLM is listed on Binance. read more on [CoinMarketCap](https://coinmarketcap.com
 10. Smoothly run by auto ignoring other errors.
 11. Support proxy.
 12. Logging.
-13. .<img src="https://www.svgrepo.com/show/196054/premium.svg" width="20" height="20" title="In premium version"> **Auto get/refresh cookies for multi-account.**
-14. .<img src="https://www.svgrepo.com/show/196054/premium.svg" width="20" height="20" title="In premium version"> **Multi-account with real browser profiles.**
-15. .<img src="https://www.svgrepo.com/show/196054/premium.svg" width="20" height="20" title="In premium version"> **Support first setup (free), edit code (1$ / 10 lines).**
+- .<img src="https://www.svgrepo.com/show/196054/premium.svg" width="20" height="20" title="In premium version"> **Multi-account functions:**
+    - .<img src="https://www.svgrepo.com/show/196054/premium.svg" width="20" height="20" title="In premium version"> **Import accounts, land, tools from Excel.**
+    - .<img src="https://www.svgrepo.com/show/196054/premium.svg" width="20" height="20" title="In premium version"> **Auto set land, tools at start or on change.**
+    - .<img src="https://www.svgrepo.com/show/196054/premium.svg" width="20" height="20" title="In premium version"> **Auto get/refresh cookies for accounts.**
+    - .<img src="https://www.svgrepo.com/show/196054/premium.svg" width="20" height="20" title="In premium version"> **Run with real browser profiles.**
 
 ###### Tutorial:
 
@@ -80,8 +82,11 @@ v1.4 [View on Youtube](https://www.youtube.com/watch?v=nFb3mL9LP9Q)
 
 v1.5 Release soon
 
-- .<img src="https://www.svgrepo.com/show/196054/premium.svg" width="20" height="20" title="In premium version"> **Auto get/refresh cookies for multi-account.**
-- .<img src="https://www.svgrepo.com/show/196054/premium.svg" width="20" height="20" title="In premium version"> **Multi-account with real browser profiles.**
+- .<img src="https://www.svgrepo.com/show/196054/premium.svg" width="20" height="20" title="In premium version"> **Multi-account functions:**
+    - .<img src="https://www.svgrepo.com/show/196054/premium.svg" width="20" height="20" title="In premium version"> **Import accounts, land, tools from Excel.**
+    - .<img src="https://www.svgrepo.com/show/196054/premium.svg" width="20" height="20" title="In premium version"> **Auto set land, tools at start or on change.**
+    - .<img src="https://www.svgrepo.com/show/196054/premium.svg" width="20" height="20" title="In premium version"> **Auto get/refresh cookies for accounts.**
+    - .<img src="https://www.svgrepo.com/show/196054/premium.svg" width="20" height="20" title="In premium version"> **Run with real browser profiles.**
 
 ###### Please do step by step to use:
 
@@ -131,9 +136,11 @@ TLM đã lên sàn Binance. Xem thêm trên [CoinMarketCap](https://coinmarketca
 10. Chạy mượt bằng cách tự bỏ qua các lỗi khác.
 11. Hỗ trợ proxy.
 12. Ghi log.
-13. .<img src="https://www.svgrepo.com/show/196054/premium.svg" width="20" height="20" title="In premium version"> **Tự động lấy/làm mới cookies cho nhiều tài khoản.**
-14. .<img src="https://www.svgrepo.com/show/196054/premium.svg" width="20" height="20" title="In premium version"> **Chạy nhiều tài khoản với hồ sơ người dùng trình duyệt thật.**
-15. .<img src="https://www.svgrepo.com/show/196054/premium.svg" width="20" height="20" title="In premium version"> **Hỗ trợ cài đặt lần đầu (miễn phí), sửa code (1$ / 10 dòng).**
+13. .<img src="https://www.svgrepo.com/show/196054/premium.svg" width="20" height="20" title="In premium version"> **Các tính năng dành cho nhiều tài khoản:**
+    - .<img src="https://www.svgrepo.com/show/196054/premium.svg" width="20" height="20" title="In premium version"> **Nhập tài khoản, land, tools từ Excel.**
+    - .<img src="https://www.svgrepo.com/show/196054/premium.svg" width="20" height="20" title="In premium version"> **Tự động set land, tools khi bắt đầu hoặc khi có thay đổi.**
+    - .<img src="https://www.svgrepo.com/show/196054/premium.svg" width="20" height="20" title="In premium version"> **Tự lấy/làm mới cookies cho nhiều tải khoản.**
+    - .<img src="https://www.svgrepo.com/show/196054/premium.svg" width="20" height="20" title="In premium version"> **Chạy trên hồ sơ người dùng trình duyệt thật.**
 
 ###### Hướng dẫn:
 
@@ -171,8 +178,11 @@ v1.4 [View on Youtube](https://www.youtube.com/watch?v=nFb3mL9LP9Q)
 
 v1.5 Sẽ phát hành sớm
 
-- .<img src="https://www.svgrepo.com/show/196054/premium.svg" width="20" height="20" title="In premium version"> **Tự động lấy/làm mới cookies cho nhiều tài khoản.**
-- .<img src="https://www.svgrepo.com/show/196054/premium.svg" width="20" height="20" title="In premium version"> **Chạy nhiều tài khoản với hồ sơ người dùng trình duyệt thật.**
+- .<img src="https://www.svgrepo.com/show/196054/premium.svg" width="20" height="20" title="In premium version"> **Các tính năng dành cho nhiều tài khoản:**
+    - .<img src="https://www.svgrepo.com/show/196054/premium.svg" width="20" height="20" title="In premium version"> **Nhập tài khoản, land, tools từ Excel.**
+    - .<img src="https://www.svgrepo.com/show/196054/premium.svg" width="20" height="20" title="In premium version"> **Tự động set land, tools khi bắt đầu hoặc khi có thay đổi.**
+    - .<img src="https://www.svgrepo.com/show/196054/premium.svg" width="20" height="20" title="In premium version"> **Tự lấy/làm mới cookies cho nhiều tải khoản.**
+    - .<img src="https://www.svgrepo.com/show/196054/premium.svg" width="20" height="20" title="In premium version"> **Chạy trên hồ sơ người dùng trình duyệt thật.**
 
 ###### Vui lòng thực hiện theo các bước sau:
 
