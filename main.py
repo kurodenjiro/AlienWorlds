@@ -370,7 +370,9 @@ def ClaimTLM():
                                             pass
                                     time.sleep(5)
                                     browser.switch_to.window(gameTab)
-                                    CanvasDraw(browser, 210, -115)  # Click to Close button
+                                    for i in range(-5, 5):
+                                        for j in range(-5, 5):
+                                            CanvasDraw(browser, 210 + i, -115 + j)  # Click to Close button
                                     time.sleep(2)
                                     CanvasDraw(browser, 0, 50)  # Click to Claim button if 1 button
                                     CanvasDraw(browser, -70,
@@ -378,6 +380,7 @@ def ClaimTLM():
                                     time.sleep(5)
                                     if len(browser.window_handles) > 1:
                                         isTransactionExpired = True
+                                        log.screen_n_file('  [-] Transaction is expired.')
 
                                 browser.switch_to.window(gameTab)
                                 if isCaptchaExpired:
@@ -430,7 +433,6 @@ def ClaimTLM():
                         haveException = True
                         log.screen_n_file('[!] %s has exception: %s. Restart now!' % (app, ex))
                         notification.notify(app, '%s has exception: %s. Restart now!' % (app, ex))
-                        time.sleep(1)
                         break
 
 
