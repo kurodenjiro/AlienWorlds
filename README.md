@@ -18,7 +18,11 @@ license**, so, it's cheaper.
 | Version  | Price | Access |
 | --- | --- | --- |
 | ~~v1.4~~  | ~~20$ (7 cliens purchased)~~  | ~~from v1.4~~ |
-| **v1.5**  | **50$** | **from v1.5**  |
+| **v1.5**  | **70$** | **from v1.5**  |
+
+**Price from v1.5 is 70$**
+
+**Sale off**: First **10** peoples who purchase from now, price is only **50$**.
 
 **Accept:** PayPal, Payeer, WAXP, TLM, Bank.
 
