@@ -67,7 +67,7 @@ TLM is listed on Binance. read more on [CoinMarketCap](https://coinmarketcap.com
     - Screen.
     - File.
     - **<img src="https://www.svgrepo.com/show/196054/premium.svg" width="20" height="20" title="In premium version">
-      Centralized manager page.**
+      Centralized summary page.**
 
 ###### Tutorial:
 
@@ -122,7 +122,7 @@ TLM is listed on Binance. read more on [CoinMarketCap](https://coinmarketcap.com
 **v1.6 Premium** Release soon. Price will increase to **70$**.
 
 - **<img src="https://www.svgrepo.com/show/196054/premium.svg" width="20" height="20" title="In premium version">
-  Centralized manager page.**
+  Centralized summary page.**
 - ...
 
 ###### Please do step by step to use:
@@ -190,7 +190,7 @@ TLM đã lên sàn Binance. Xem thêm trên [CoinMarketCap](https://coinmarketca
     - Màn hình.
     - File.
     - **<img src="https://www.svgrepo.com/show/196054/premium.svg" width="20" height="20" title="In premium version">
-      Trang quản lý tập trung.**
+      Trang thống kê tập trung.**
 
 ###### Hướng dẫn:
 
@@ -241,7 +241,7 @@ TLM đã lên sàn Binance. Xem thêm trên [CoinMarketCap](https://coinmarketca
 
 **v1.6 Premium** Sẽ phát hành sớm. Giá sẽ tăng lên **70$**.
 
-- **<img src="https://www.svgrepo.com/show/196054/premium.svg" width="20" height="20" title="In premium version"> Trang quản lý tập trung.**
+- **<img src="https://www.svgrepo.com/show/196054/premium.svg" width="20" height="20" title="In premium version"> Trang thống kê tập trung.**
 - ...
 
 ###### Vui lòng thực hiện theo các bước sau:
