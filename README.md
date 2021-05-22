@@ -1,17 +1,26 @@
 # AlienWorlds Auto Claim TLM - Community version
 
-The premium version is developing. Its functionality will be announced soon. It's safer, more stable, more accurate,
-faster, lighter for multiple accounts. The auto script will be located **in this [private repository](https://github.com/autoalmosteverything/AlienWorldsPremium) only available to those
-who have received my invitation (from now, I will call "Right of Access", RoA).** In particular, when buying RoA, you
-can download it anytime, use it for any account on any computer, without limitation (except sharing). I will support the
-first-time setup and always update and fix bugs in the future.
+The free version has stopped developing new features, but still maintains the patch.
+
+The premium version is developing. It's more stable, more accurate, faster, lighter for multiple accounts. The auto
+script will be located **in this [private repository](https://github.com/autoalmosteverything/AlienWorldsPremium) only
+available to those who have received my invitation (from now, I will call "Right of Access", RoA).** When buying RoA,
+you can access, download it anytime, use it for any account on any computer, without limitation (except sharing). I will
+support the first-time setup and continue update new features in the future.
 
 **For those of you who have donated money, WAXP, BTC** when I develop the community version, **I will give free RoA**.
 This is a recognition of your support. Thank you!
 
 **For those who want to use the premium version**, I will announce the price for each milestone of development. Expected
 from **$ 20 for the early versions, later the price will increase**. Please note that **you purchased RoA, not a
-license**.
+license**, so, it's cheaper.
+
+| Version  | Price | Access |
+| --- | --- | --- |
+| ~~v1.4~~  | ~~20$ (7 cliens purchased)~~  | ~~from v1.4~~ |
+| **v1.5**  | **50$** | **from v1.5**  |
+
+**Accept:** PayPal, Payeer, WAXP, TLM, Bank.
 
 ### [English - Tiếng Việt bên dưới]
 
@@ -20,73 +29,101 @@ TLM is listed on Binance. read more on [CoinMarketCap](https://coinmarketcap.com
 ###### Functions:
 
 1. Claim TLM.
-2. Captcha warning by notification and sound.
-3. Automatically solve captcha by using:
+2. **<img src="https://www.svgrepo.com/show/196054/premium.svg" width="20" height="20" title="In premium version">
+   Multi-account**.
+    - **Centralized config.**
+    - **Import accounts from Excel file: cookies, proxy, land, tools.**
+    - **Concurrency mechanism.**
+    - **Allow unlimited account amount.**
+3. Captcha warning by notification and sound.
+4. Automatically solve captcha by using:
 
-   3.1. 2Captcha, [Register here](https://2captcha.com?from=11528745).
+   4.1. 2Captcha, [Register here](https://2captcha.com?from=11528745).
 
-   3.2. CapMonster, [Register here](https://capmonster.cloud/).
+   4.2. CapMonster, [Register here](https://capmonster.cloud/).
 
-   3.3. Anti-captcha will be added in the next update.
+   4.3. **<img src="https://www.svgrepo.com/show/196054/premium.svg" width="20" height="20" title="In premium version">
+   Anti-Captcha, [Register here](https://anti-captcha.com/).**
 
-4. Handle the expired captcha to try again, max 2 times.
-5. Get username, resource information (from Wax wallet), and .<img src="https://www.svgrepo.com/show/196054/premium.svg" width="20" height="20" title="In premium version"> **delay time (based current land and tools)**.
-6. Handle `out of CPU, NET and RAM` error:
-   - Always check resource before mine.
-   - Wait until the used resource amount returns under 100%.
-7. Handle `fail to fetch` error: try to login again.
-8. .<img src="https://www.svgrepo.com/show/196054/premium.svg" width="20" height="20" title="In premium version"> **Prevent falling into an endless loop when mining.**
-9. Handle `transaction is expired` error: try to claim again.
-10. Smoothly run by auto ignoring other errors.
-11. Support proxy.
-12. Logging.
-- .<img src="https://www.svgrepo.com/show/196054/premium.svg" width="20" height="20" title="In premium version"> **Multi-account functions:**
-    - .<img src="https://www.svgrepo.com/show/196054/premium.svg" width="20" height="20" title="In premium version"> **Import accounts, land, tools from Excel.**
-    - .<img src="https://www.svgrepo.com/show/196054/premium.svg" width="20" height="20" title="In premium version"> **Auto set land, tools at start or on change.**
-    - .<img src="https://www.svgrepo.com/show/196054/premium.svg" width="20" height="20" title="In premium version"> **Auto get/refresh cookies for accounts.**
-    - .<img src="https://www.svgrepo.com/show/196054/premium.svg" width="20" height="20" title="In premium version"> **Run with real browser profiles.**
+5. Handle the expired captcha to try again, max 2 times.
+6. Get username, **<img src="https://www.svgrepo.com/show/196054/premium.svg" width="20" height="20" title="In premium version">
+   balance**, resource information (from Wax wallet),
+   and **<img src="https://www.svgrepo.com/show/196054/premium.svg" width="20" height="20" title="In premium version">
+   delay time (based current land, tools or transaction)**.
+7. Handle `out of CPU, NET and RAM` error.
+    - Always check before mine.
+    - Wait until the used amount returns under 100%.
+8. **<img src="https://www.svgrepo.com/show/196054/premium.svg" width="20" height="20" title="In premium version">
+   Handle problem `change land` and `drop tools`.**
+    - **Always check before mine.**
+    - **Auto `set land` and `set bag`.**
+9. Handle `fail to fetch` error: try to login again.
+10. **<img src="https://www.svgrepo.com/show/196054/premium.svg" width="20" height="20" title="In premium version">
+   Prevent falling into an endless loop when mining.**
+11. Handle `transaction is expired` error: try to claim again.
+12. Smoothly run by auto ignoring other errors.
+13. Support proxy.
+14. Logging:
+    - Screen.
+    - File.
+    - **<img src="https://www.svgrepo.com/show/196054/premium.svg" width="20" height="20" title="In premium version">
+      Centralized manager page.**
 
 ###### Tutorial:
 
-v1.0 [View on Youtube](https://www.youtube.com/watch?v=NWUMdimjPPE)
+**v1.0 Community** [View on Youtube](https://www.youtube.com/watch?v=NWUMdimjPPE)
 
 - Claim TLM.
 
-v1.1 [View on Youtube](https://www.youtube.com/watch?v=qvD0Kp5Sp30)
+**v1.1 Community** [View on Youtube](https://www.youtube.com/watch?v=qvD0Kp5Sp30)
 
-- Update new wait & click mechanism to reduce wait time and increase click position and timing accuracy.
 - Automatically solve captcha by using 2Captcha.
 - Handle the expired captcha to try again, max 2 times.
 - Smoothly run by auto ignoring other errors.
 
-v1.2 [View on Youtube](https://youtu.be/6XfwxT-w4_I)
+**v1.2 Community** [View on Youtube](https://youtu.be/6XfwxT-w4_I)
 
 - Get username, resource information (from Wax wallet).
 - Handle `out of CPU, NET and RAM` error:
-   - Always check resource before mine.
-   - Wait until the used resource amount returns under 100%.
+    - Always check resource before mine.
+    - Wait until the used resource amount returns under 100%.
 
-v1.3 [View on Youtube](https://www.youtube.com/watch?v=kiVkAjCedSU)
+**v1.3 Community** [View on Youtube](https://www.youtube.com/watch?v=kiVkAjCedSU)
 
 - Handle `transaction is expired` error: try to claim again.
 
-v1.4 [View on Youtube](https://www.youtube.com/watch?v=nFb3mL9LP9Q)
+**v1.4 Community & Premium** [View on Youtube](https://www.youtube.com/watch?v=nFb3mL9LP9Q)
 
 - Switch to one time login instead of the loop of turn off/turn on browser.
-- Handle `fail to fetch` error: try to login again.
-- .<img src="https://www.svgrepo.com/show/196054/premium.svg" width="20" height="20" title="In premium version"> **Get delay time (based current land and tools).**
-- .<img src="https://www.svgrepo.com/show/196054/premium.svg" width="20" height="20" title="In premium version"> **Prevent falling into an endless loop when mining.**
 - Add CapMonster as 2nd anti-captcha service.
+- Handle `fail to fetch` error: try to login again.
+- **<img src="https://www.svgrepo.com/show/196054/premium.svg" width="20" height="20" title="In premium version"> Get
+  delay time (based current land, tools or transaction).**
+- **<img src="https://www.svgrepo.com/show/196054/premium.svg" width="20" height="20" title="In premium version">
+  Prevent falling into an endless loop when mining.**
 - Support proxy.
 - Add logging function.
 
-v1.5 Release soon
+**v1.5 Premium** [View on Youtube]()
 
-- .<img src="https://www.svgrepo.com/show/196054/premium.svg" width="20" height="20" title="In premium version"> **Multi-account functions:**
-    - .<img src="https://www.svgrepo.com/show/196054/premium.svg" width="20" height="20" title="In premium version"> **Import accounts, land, tools from Excel.**
-    - .<img src="https://www.svgrepo.com/show/196054/premium.svg" width="20" height="20" title="In premium version"> **Auto set land, tools at start or on change.**
-    - .<img src="https://www.svgrepo.com/show/196054/premium.svg" width="20" height="20" title="In premium version"> **Auto get/refresh cookies for accounts.**
-    - .<img src="https://www.svgrepo.com/show/196054/premium.svg" width="20" height="20" title="In premium version"> **Run with real browser profiles.**
+- **<img src="https://www.svgrepo.com/show/196054/premium.svg" width="20" height="20" title="In premium version">
+  Multi-account**.
+    - **Centralized config.**
+    - **Import from Excel file: cookies, proxy, land, tools.**
+    - **Concurrency mechanism.**
+    - **Allow unlimited account amount.**
+- **<img src="https://www.svgrepo.com/show/196054/premium.svg" width="20" height="20" title="In premium version"> Add
+  Anti-Captcha as 3rd anti-captcha service.**
+- **<img src="https://www.svgrepo.com/show/196054/premium.svg" width="20" height="20" title="In premium version"> Handle
+  problem `change land` and `drop tools`.**
+    - **Always check before mine.**
+    - **Auto set land and set bag.**
+
+**v1.6 Premium** Release soon. Price will increase to **70$**.
+
+- **<img src="https://www.svgrepo.com/show/196054/premium.svg" width="20" height="20" title="In premium version">
+  Centralized manager page.**
+- ...
 
 ###### Please do step by step to use:
 
@@ -94,7 +131,7 @@ v1.5 Release soon
 
 [![SC2 Video](http://i3.ytimg.com/vi/_CoijjMXvYY/hqdefault.jpg)](https://www.youtube.com/watch?v=_CoijjMXvYY)
 
-2. Install modules  **requests**, **selenium**, **win10toast** `python -m pip install requests selenium win10toast`.
+2. Install modules  **requests**, **selenium**, **win10toast**, **python-dateutil** `python -m pip install requests selenium win10toast python-dateutil`.
 
 [![SC2 Video](http://i3.ytimg.com/vi/SQQRYAMl8Jk/hqdefault.jpg)](https://www.youtube.com/watch?v=SQQRYAMl8Jk)
 
@@ -117,72 +154,95 @@ TLM đã lên sàn Binance. Xem thêm trên [CoinMarketCap](https://coinmarketca
 ###### Tính năng:
 
 1. Nhận TLM.
-2. Cảnh báo captcha bằng thông báo và âm thanh.
-3. Tự động giải captcha bằng:
+2. **<img src="https://www.svgrepo.com/show/196054/premium.svg" width="20" height="20" title="In premium version">
+   Chạy nhiều tài khoản.**
+    - **Cấu hình tập trung.**
+    - **Nhập nhiều tài khoản từ file Excel: cookies, proxy, land, tools.**
+    - **Cơ chế xử lý đồng thời.**
+    - **Cho phép không giới hạn tài khoản.**
+3. Cảnh báo captcha bằng thông báo và âm thanh.
+4. Tự động giải captcha bằng:
 
-   3.1. 2Captcha, [Đăng ký tại đây](https://2captcha.com?from=11528745).
+   4.1. 2Captcha, [Đăng ký tại đây](https://2captcha.com?from=11528745).
 
-   3.2. CapMonster, [Đăng ký tại đây](https://capmonster.cloud/).
+   4.2. CapMonster, [Đăng ký tại đây](https://capmonster.cloud/).
 
-   3.3. Anti-captcha sẽ được thêm vào trong bản cập nhật tới.
+   4.3. **<img src="https://www.svgrepo.com/show/196054/premium.svg" width="20" height="20" title="In premium version">
+   Anti-Captcha, [Đăng ký tại đây](https://anti-captcha.com/).**
 
-4. Xử lý captcha quá hạn để thử lại, tối đa 2 lần.
-5. Lấy thông tin người chơi, tài nguyên (từ ví Wax), và .<img src="https://www.svgrepo.com/show/196054/premium.svg" width="20" height="20" title="In premium version"> **thời gian đợi (dựa trên đất hiện tại cũng như công cụ đang sử
-   dụng)**.
-6. Xử lý lỗi `out of CPU, NET, and RAM`: đợi đến khi lượng tài nguyên đã sử dụng trở về dưới 100%.
-7. Xử lỹ lỗi `fail to fetch`: cố gắng đăng nhập lại.
-8. .<img src="https://www.svgrepo.com/show/196054/premium.svg" width="20" height="20" title="In premium version"> **Chống treo khi khai thác.**
-9. Xử lý lỗi `transaction is expired`: cố gắng nhận lại.
-10. Chạy mượt bằng cách tự bỏ qua các lỗi khác.
-11. Hỗ trợ proxy.
-12. Ghi log.
-13. .<img src="https://www.svgrepo.com/show/196054/premium.svg" width="20" height="20" title="In premium version"> **Các tính năng dành cho nhiều tài khoản:**
-    - .<img src="https://www.svgrepo.com/show/196054/premium.svg" width="20" height="20" title="In premium version"> **Nhập tài khoản, land, tools từ Excel.**
-    - .<img src="https://www.svgrepo.com/show/196054/premium.svg" width="20" height="20" title="In premium version"> **Tự động set land, tools khi bắt đầu hoặc khi có thay đổi.**
-    - .<img src="https://www.svgrepo.com/show/196054/premium.svg" width="20" height="20" title="In premium version"> **Tự lấy/làm mới cookies cho nhiều tải khoản.**
-    - .<img src="https://www.svgrepo.com/show/196054/premium.svg" width="20" height="20" title="In premium version"> **Chạy trên hồ sơ người dùng trình duyệt thật.**
+5. Xử lý captcha quá hạn để thử lại, tối đa 2 lần.
+6. Lấy thông tin người chơi, **<img src="https://www.svgrepo.com/show/196054/premium.svg" width="20" height="20" title="In premium version">
+   số dư**, tài nguyên (từ ví Wax), và **<img src="https://www.svgrepo.com/show/196054/premium.svg" width="20" height="20" title="In premium version"> thời
+   gian đợi (dựa trên đất, công cụ hiện tại hoặc giao dịch)**.
+7. Xử lý lỗi `out of CPU, NET and RAM`.
+    - Luôn kiểm tra trước khi khai thác.
+    - Đợi đến khi lượng tài nguyên đã sử dụng trở về dưới 100%.
+8. **<img src="https://www.svgrepo.com/show/196054/premium.svg" width="20" height="20" title="In premium version">
+   Xử lý vấn đề `change land` và `drop tools`.**
+    - **Luôn kiểm tra trước khi khai thác.**
+    - **Tự động `set land` và `set bag`.**
+9. Xử lỹ lỗi `fail to fetch`. Thử đăng nhập lại.
+10. **<img src="https://www.svgrepo.com/show/196054/premium.svg" width="20" height="20" title="In premium version"> Chống treo khi khai thác.**
+11. Xử lý lỗi `transaction is expired`: cố gắng nhận lại.
+12. Chạy mượt bằng cách tự bỏ qua các lỗi khác.
+13. Hỗ trợ proxy.
+14. Ghi log:
+    - Màn hình.
+    - File.
+    - **<img src="https://www.svgrepo.com/show/196054/premium.svg" width="20" height="20" title="In premium version">
+      Trang quản lý tập trung.**
 
 ###### Hướng dẫn:
 
-v1.0 [Xem trên Youtube](https://www.youtube.com/watch?v=NWUMdimjPPE)
+**v1.0 Community** [Xem trên Youtube](https://www.youtube.com/watch?v=NWUMdimjPPE)
 
 - Nhận TLM.
 
-v1.1 [Xem trên Youtube](https://www.youtube.com/watch?v=qvD0Kp5Sp30)
+**v1.1 Community** [Xem trên Youtube](https://www.youtube.com/watch?v=qvD0Kp5Sp30)
 
-- Cập nhật cơ chế đợi và click nhằm giảm thời gian đợi, tăng độ chính xác của vị trí và thời điểm click.
 - Tự động giải captcha bằng 2Captcha.
 - Xử lý captcha quá hạn để thử lại, tối đa 2 lần.
 - Chạy mượt bằng cách tự bỏ qua các lỗi khác.
 
-v1.2 [Xem trên Youtube](https://youtu.be/6XfwxT-w4_I)
+**v1.2 Community** [Xem trên Youtube](https://youtu.be/6XfwxT-w4_I)
 
 - Lấy thông tin người chơi, tài nguyên (từ ví Wax).
-- Xử lý lỗi `out of CPU, NET, and RAM`: 
-   - Kiểm tra tài nguyên trước khi khai thác. 
-   - Đợi cho đến khi lượng tài nguyên đã sử dụng trở về dưới 100%.
+- Xử lý lỗi `out of CPU, NET, and RAM`:
+    - Kiểm tra tài nguyên trước khi khai thác.
+    - Đợi cho đến khi lượng tài nguyên đã sử dụng trở về dưới 100%.
 
-v1.3 [Xem trên Youtube](https://www.youtube.com/watch?v=kiVkAjCedSU)
+**v1.3 Community** [Xem trên Youtube](https://www.youtube.com/watch?v=kiVkAjCedSU)
 
 - Xử lý lỗi `transaction is expired`: cố gắng nhận lại.
 
-v1.4 [View on Youtube](https://www.youtube.com/watch?v=nFb3mL9LP9Q)
+**v1.4 Community & Premium** [View on Youtube](https://www.youtube.com/watch?v=nFb3mL9LP9Q)
 
 - Chuyển sang đăng nhập 1 lần thay vì vòng lặp mở/tắt trình duyệt.
-- Thêm dịch vụ giải captcha thứ hai: CapMonster.
+- Thêm dịch vụ giải captcha thứ hai CapMonster.
 - Xử lý lỗi `fail to fetch` error: cố gắng đăng nhập lại.
-- .<img src="https://www.svgrepo.com/show/196054/premium.svg" width="20" height="20" title="In premium version"> **Lấy thời gian đợi (dựa trên đất hiện tại cũng như công cụ đang sử dụng).**
-- .<img src="https://www.svgrepo.com/show/196054/premium.svg" width="20" height="20" title="In premium version"> **Chống treo khi khai thác.**
+- **<img src="https://www.svgrepo.com/show/196054/premium.svg" width="20" height="20" title="In premium version"> Lấy thời gian đợi (dựa trên đất, công cụ hiện tại hoặc giao dịch).**
+- **<img src="https://www.svgrepo.com/show/196054/premium.svg" width="20" height="20" title="In premium version"> Chống treo khi khai thác.**
 - Hỗ trợ proxy.
 - Thêm tính năng ghi log.
 
-v1.5 Sẽ phát hành sớm
+**v1.5 Premium** [View on Youtube]()
 
-- .<img src="https://www.svgrepo.com/show/196054/premium.svg" width="20" height="20" title="In premium version"> **Các tính năng dành cho nhiều tài khoản:**
-    - .<img src="https://www.svgrepo.com/show/196054/premium.svg" width="20" height="20" title="In premium version"> **Nhập tài khoản, land, tools từ Excel.**
-    - .<img src="https://www.svgrepo.com/show/196054/premium.svg" width="20" height="20" title="In premium version"> **Tự động set land, tools khi bắt đầu hoặc khi có thay đổi.**
-    - .<img src="https://www.svgrepo.com/show/196054/premium.svg" width="20" height="20" title="In premium version"> **Tự lấy/làm mới cookies cho nhiều tải khoản.**
-    - .<img src="https://www.svgrepo.com/show/196054/premium.svg" width="20" height="20" title="In premium version"> **Chạy trên hồ sơ người dùng trình duyệt thật.**
+- **<img src="https://www.svgrepo.com/show/196054/premium.svg" width="20" height="20" title="In premium version">
+   Chạy nhiều tài khoản.**
+    - **Cấu hình tập trung.**
+    - **Nhập nhiều tài khoản từ file Excel: cookies, proxy, land, tools.**
+    - **Cơ chế xử lý đồng thời.**
+    - **Cho phép không giới hạn tài khoản.**
+- **<img src="https://www.svgrepo.com/show/196054/premium.svg" width="20" height="20" title="In premium version"> Thêm dịch vụ giải captcha thứ ba Anti-Captcha.**
+- **<img src="https://www.svgrepo.com/show/196054/premium.svg" width="20" height="20" title="In premium version">
+   Xử lý vấn đề `change land` và `drop tools`.**
+    - **Luôn kiểm tra trước khi khai thác.**
+    - **Tự động `set land` và `set bag`.**
+
+**v1.6 Premium** Sẽ phát hành sớm. Giá sẽ tăng lên **70$**.
+
+- **<img src="https://www.svgrepo.com/show/196054/premium.svg" width="20" height="20" title="In premium version"> Trang quản lý tập trung.**
+- ...
 
 ###### Vui lòng thực hiện theo các bước sau:
 
@@ -190,7 +250,7 @@ v1.5 Sẽ phát hành sớm
 
 [![SC2 Video](http://i3.ytimg.com/vi/_CoijjMXvYY/hqdefault.jpg)](https://www.youtube.com/watch?v=_CoijjMXvYY)
 
-2. Cài đặt modules **requests**, **selenium**, **win10toast** `python -m pip install requests selenium win10toast`.
+2. Cài đặt modules **requests**, **selenium**, **win10toast**, **python-dateutil** `python -m pip install requests selenium win10toast python-dateutil`.
 
 [![SC2 Video](http://i3.ytimg.com/vi/SQQRYAMl8Jk/hqdefault.jpg)](https://www.youtube.com/watch?v=SQQRYAMl8Jk)
 
