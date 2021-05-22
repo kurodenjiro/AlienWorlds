@@ -20,17 +20,17 @@ license**, so, it's cheaper.
 | ~~v1.4~~  | ~~20$ (7 cliens purchased)~~  | ~~from v1.4~~ |
 | **v1.5**  | **70$** | **from v1.5**  |
 
-**Price from v1.5 is 70$**
+**<img src="https://www.svgrepo.com/show/10101/star.svg" width="12" height="12"> Price from v1.5 is 70$**. Price will be increased to 100$ for stable version.
 
-**Sale off**: First **10** peoples who purchase from now, price is only **50$**.
+**<img src="https://www.svgrepo.com/show/210826/sale.svg" width="12" height="12"> Sale off**: First **10** peoples who purchase from now, price is only **50$**.
 
-**Accept:** PayPal, Payeer, WAXP, TLM, Bank.
+**<img src="https://www.svgrepo.com/show/29779/wallet.svg" width="12" height="12"> Accept:** PayPal, Payeer, WAXP, TLM, Bank.
 
 ### [English - Tiếng Việt bên dưới]
 
 TLM is listed on Binance. read more on [CoinMarketCap](https://coinmarketcap.com/vi/currencies/alien-worlds/).
 
-###### Functions:
+##### <img src="https://www.svgrepo.com/show/226569/rec-dot.svg" width="12" height="12"> Functions:
 
 1. Claim TLM.
 2. **<img src="https://www.svgrepo.com/show/196054/premium.svg" width="20" height="20" title="In premium version">
@@ -73,7 +73,7 @@ TLM is listed on Binance. read more on [CoinMarketCap](https://coinmarketcap.com
     - **<img src="https://www.svgrepo.com/show/196054/premium.svg" width="20" height="20" title="In premium version">
       Centralized summary page.**
 
-###### Tutorial:
+##### <img src="https://www.svgrepo.com/show/226569/rec-dot.svg" width="12" height="12"> History:
 
 **v1.0 Community** [View on Youtube](https://www.youtube.com/watch?v=NWUMdimjPPE)
 
@@ -108,7 +108,7 @@ TLM is listed on Binance. read more on [CoinMarketCap](https://coinmarketcap.com
 - Support proxy.
 - Add logging function.
 
-**v1.5 Premium** [View on Youtube]()
+**v1.5 Premium** [View on Youtube](https://youtu.be/RIQr89oLzuI)
 
 - **<img src="https://www.svgrepo.com/show/196054/premium.svg" width="20" height="20" title="In premium version">
   Multi-account**.
@@ -129,7 +129,7 @@ TLM is listed on Binance. read more on [CoinMarketCap](https://coinmarketcap.com
   Centralized summary page.**
 - ...
 
-###### Please do step by step to use:
+##### <img src="https://www.svgrepo.com/show/226569/rec-dot.svg" width="12" height="12"> Installation:
 
 1. Install language **Python 3.9.x** https://www.python.org/downloads/.
 
@@ -147,15 +147,20 @@ TLM is listed on Binance. read more on [CoinMarketCap](https://coinmarketcap.com
 5. Run script.
 6. (_Optional_) Edit script for your personal use. Contact me for more functions.
 
-###### Note:
+##### <img src="https://www.svgrepo.com/show/226569/rec-dot.svg" width="12" height="12"> Config (for Premium version):
 
-1. **Do not resize** the browser's window.
+- Everything in `configs.py`. Please review it firstly.
+- Input accounts list into Excel file `accounts.csv`, in folder `Input`. Please review a sample.
+
+##### <img src="https://www.svgrepo.com/show/226569/rec-dot.svg" width="12" height="12"> Note:
+
+**Do not resize** the browser's window.
 
 ### [Tiếng Việt - English above]
 
 TLM đã lên sàn Binance. Xem thêm trên [CoinMarketCap](https://coinmarketcap.com/vi/currencies/alien-worlds/).
 
-###### Tính năng:
+##### <img src="https://www.svgrepo.com/show/226569/rec-dot.svg" width="12" height="12"> Tính năng:
 
 1. Nhận TLM.
 2. **<img src="https://www.svgrepo.com/show/196054/premium.svg" width="20" height="20" title="In premium version">
@@ -196,7 +201,7 @@ TLM đã lên sàn Binance. Xem thêm trên [CoinMarketCap](https://coinmarketca
     - **<img src="https://www.svgrepo.com/show/196054/premium.svg" width="20" height="20" title="In premium version">
       Trang thống kê tập trung.**
 
-###### Hướng dẫn:
+##### <img src="https://www.svgrepo.com/show/226569/rec-dot.svg" width="12" height="12"> Lịch sử:
 
 **v1.0 Community** [Xem trên Youtube](https://www.youtube.com/watch?v=NWUMdimjPPE)
 
@@ -229,7 +234,7 @@ TLM đã lên sàn Binance. Xem thêm trên [CoinMarketCap](https://coinmarketca
 - Hỗ trợ proxy.
 - Thêm tính năng ghi log.
 
-**v1.5 Premium** [View on Youtube]()
+**v1.5 Premium** [View on Youtube](https://youtu.be/RIQr89oLzuI)
 
 - **<img src="https://www.svgrepo.com/show/196054/premium.svg" width="20" height="20" title="In premium version">
    Chạy nhiều tài khoản.**
@@ -248,7 +253,7 @@ TLM đã lên sàn Binance. Xem thêm trên [CoinMarketCap](https://coinmarketca
 - **<img src="https://www.svgrepo.com/show/196054/premium.svg" width="20" height="20" title="In premium version"> Trang thống kê tập trung.**
 - ...
 
-###### Vui lòng thực hiện theo các bước sau:
+##### <img src="https://www.svgrepo.com/show/226569/rec-dot.svg" width="12" height="12"> Cài đặt:
 
 1. Cài đặt ngôn ngữ **Python 3.9.x** https://www.python.org/downloads/.
 
@@ -266,9 +271,14 @@ TLM đã lên sàn Binance. Xem thêm trên [CoinMarketCap](https://coinmarketca
 5. Thực thi mã.
 6. (_Tự chọn_) Sửa mã cho mục đích sử dụng cá nhân của bạn. Liên hệ tôi để có thêm tính năng mới!
 
-###### Chú ý:
+##### <img src="https://www.svgrepo.com/show/226569/rec-dot.svg" width="12" height="12"> Cấu hình (chỉ dành cho phiên bản Premium):
 
-1. **Không thay đổi** kích thước của sổ trình duyệt.
+- Mọi thứ có trong file `configs.py`. Vui lòng xem qua nó trước tiên.
+- Nhập danh sách tài khoản vào file Excel `accounts.csv`, trong thư mục `Input`. Vui lòng xem xét file mẫu.
+
+##### <img src="https://www.svgrepo.com/show/226569/rec-dot.svg" width="12" height="12"> Chú ý:
+
+**Không thay đổi** kích thước của sổ trình duyệt.
 
 # Auto Almost Everything
 
